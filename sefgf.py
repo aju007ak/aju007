@@ -1,11 +1,11 @@
 import sys,string
-n = int(input())
+a = int(input())
 L = [ int(x) for x in input().split()]
 sum2 = sum(L)
 
-for j in range(n-2,-1,-1) :
+for j in range(a-2,-1,-1) :
     #print('arr len = ', j+1)
-    for i in range(0,n-j) :
+    for i in range(0,a-j) :
         li, ri = i,j+i
         sum1 = sum(L[li:ri + 1])
         #print(li, ri, sum1)
