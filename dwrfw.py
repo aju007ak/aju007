@@ -1,4 +1,5 @@
 import sys, string, math
-s = input()
-if s == s[::-1] : print('YES')
+a = input()
+if a == a[::-1] : 
+  print('YES')
 else :           print('NO')
