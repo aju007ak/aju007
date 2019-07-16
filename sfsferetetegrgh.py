@@ -1,8 +1,8 @@
 #a
 from itertools import combinations
-s=input()
+a=input()
 t=0
-l=list(combinations(s,len(s)-1))
+l=list(combinations(a,len(a)-1))
 for i in range(len(l)):
     if l[i]==l[i][::-1]:
         print("YES")
