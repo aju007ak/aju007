@@ -4,7 +4,7 @@
 z=input()
 li=list(map(int,z))
 zsum=sum(li)
-zsum=str(nsum)
+zsum=str(zsum)
 rev=zsum[::-1]
 if(zsum==rev):
     print("YES")
